@@ -1,0 +1,52 @@
+/* Googel font Poppins SemiBold font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.bluepage{
+    background: linear-gradient(90deg, #1FB7F1 0%, #1A2A8F 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+
+}
+
+.transparentpic{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .bluepage{
+        /* place in center */
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content{
+        /* place in center */
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px;
+        text-align: center;
+        /* remove br */
+        
+    }
+    .transparentpic{
+    
+        display: none;
+    }
+    
+}
+
+

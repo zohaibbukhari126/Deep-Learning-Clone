@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    ;
     
 }
 .content{
@@ -263,3 +264,75 @@ footer .container-fluid {
 /* .card  */
 
 
+/* Add this CSS code in your style.css file */
+
+@media screen and (max-width: 1024px) {
+    /* Adjust the layout for medium-sized screens */
+    .bluepage {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .content {
+      padding: 50px;
+    }
+    .transparentpic {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust the layout for small-sized screens */
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .cardcontent,
+    .video {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .video {
+      height: auto;
+    }
+    .cards .video .grayborder {
+      display: none;
+    }
+  }
+  
+  /* Optional: Add custom styles for footer */
+  footer .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  footer p {
+    margin-bottom: 0;
+  }
+  .italic {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote-icon {
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .bluepage {
+      flex-direction: column;
+      align-items: center;
+    text-align: center;
+    }
+    .content {
+      width: 100%;
+      padding: 35px;
+      text-align: center;
+    }
+  }

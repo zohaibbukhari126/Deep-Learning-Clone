@@ -336,3 +336,20 @@ footer .container-fluid {
       text-align: center;
     }
   }
+
+  /* media query for card */
+@media screen and (max-width: 1024px){
+    
+
+.cards {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: auto;
+    margin: 17px;
+    padding: 14px;
+}
+.btn{
+    margin: 3px;
+}
+}
